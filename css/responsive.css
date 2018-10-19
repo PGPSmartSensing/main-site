@@ -133,6 +133,8 @@
     }
     #header .header_menu .custom_navbar-brand>img {
         width: 75%;
+        position: relative;
+        top: -13px;
     }
     #header .header_menu {
         min-height: 60px;
@@ -535,6 +537,8 @@
     }
     #header .header_menu .custom_navbar-brand>img {
         width: 75%;
+        position: relative;
+        top: -13px;
     }
     #header .header_menu {
         min-height: 60px;
