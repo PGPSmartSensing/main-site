@@ -232,6 +232,7 @@ header.masthead h2 {
     margin: 0 auto;
     border: 1px solid #C4C4C4;
     transition: .7s;
+    margin-bottom: 15px;
 }
 
 #about .welcome_icon i {
