@@ -20,13 +20,12 @@ $(function() {
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
         xhrFields: {
-            withCredentials: true
+            withCredentials: false
         },
         url: "https://yzs6rutb2j.execute-api.eu-west-1.amazonaws.com/prod",
         type: "POST",
         headers: {
-            "Content-Type": "application/json; charset=utf-8",
-            "Access-Control-Allow-Origin": "http://pgpsmartsensing.be"
+            "Content-Type": "application/json; charset=utf-8"
         },
         contentType: "application/json",
         data: JSON.stringify({
