@@ -22,7 +22,8 @@ $(function() {
         xhrFields: {
             withCredentials: false
         },
-        url: "https://yzs6rutb2j.execute-api.eu-west-1.amazonaws.com/prod",
+        //url: "https://yzs6rutb2j.execute-api.eu-west-1.amazonaws.com/prod",
+         url: "/",
         type: "POST",
         headers: {
             "Content-Type": "application/json; charset=utf-8"
